@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Web;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using MvcApiConnection.Models;
 
 namespace MvcApiConnection.Controllers
