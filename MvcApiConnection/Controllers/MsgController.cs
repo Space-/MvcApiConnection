@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using System.Web.UI;
 using MvcApiConnection.Models;
 
 namespace MvcApiConnection.Controllers
@@ -12,10 +11,10 @@ namespace MvcApiConnection.Controllers
         // GET: Msg
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new[] { "GetResponseValue1", "GetResponseValue2" };
         }
 
-        // GET: Msg/5
+        // GET: Msg/1
         public string Get(int id)
         {
             return $"You Get id: {id}";
