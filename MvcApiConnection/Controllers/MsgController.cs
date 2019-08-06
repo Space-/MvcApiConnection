@@ -1,12 +1,12 @@
-﻿using System;
-using System.Web;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Web.UI;
 using MvcApiConnection.Models;
 
 namespace MvcApiConnection.Controllers
 {
+    [EnableCors(origins: "http://localhost:8080", headers: "accept,content-type,origin", methods: "Get,Post")]
     public class MsgController : ApiController
     {
         // GET: Msg

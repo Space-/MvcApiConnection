@@ -9,7 +9,7 @@ namespace MvcApiConnection
         {
             // Web API 設定和服務
             //            var corsAttr = new EnableCorsAttribute("http://localhost:8080", "*", "*");
-            //            config.EnableCors(corsAttr);
+            config.EnableCors();
 
             // Web API 路由
             config.MapHttpAttributeRoutes();
