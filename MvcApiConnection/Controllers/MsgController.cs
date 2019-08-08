@@ -5,7 +5,7 @@ using MvcApiConnection.Models;
 
 namespace MvcApiConnection.Controllers
 {
-    [EnableCors(origins: "http://localhost:8080", headers: "accept,content-type,origin", methods: "Get,Post")]
+    [EnableCors(origins: "http://localhost:8080", headers: "accept,content-type,origin", methods: "*")]
     public class MsgController : ApiController
     {
         // GET: Msg
